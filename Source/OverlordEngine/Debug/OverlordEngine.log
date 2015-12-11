@@ -1,0 +1,136 @@
+﻿Build started 1/05/2015 22:34:38.
+     1>Project "C:\Users\Rémy\DAE\Graphics Programming 2\old\Source\OverlordEngine\OverlordEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"C:\Users\Rémy\DAE\Graphics Programming 2\old\Source\OverlordEngine\/Base" /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\OverlordEngine.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Base\stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"C:\Users\Rémy\DAE\Graphics Programming 2\old\Source\OverlordEngine\/Base" /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\OverlordEngine.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Components\ParticleEmitterComponent.cpp Components\RigidBodyComponent.cpp Base\InputManager.cpp Components\ColliderComponent.cpp Components\CameraComponent.cpp Components\BaseComponent.cpp Base\OverlordGame.cpp Components\MeshDrawComponent.cpp Components\MeshIndexedDrawComponent.cpp Content\ContentManager.cpp Content\SpriteFontLoader.cpp Content\TextureDataLoader.cpp Content\EffectLoader.cpp Content\MeshFilterLoader.cpp Components\ControllerComponent.cpp Content\PxConvexMeshLoader.cpp Content\PxTriangleMeshLoader.cpp Diagnostics\DebugRenderer.cpp Graphics\ModelAnimator.cpp Graphics\Particle.cpp Graphics\PostProcessingMaterial.cpp Graphics\SpriteFont.cpp Graphics\TextRenderer.cpp Helpers\EffectHelper.cpp Graphics\MeshFilter.cpp Helpers\BinaryReader.cpp Components\ModelComponent.cpp Graphics\Material.cpp Helpers\PhysxHelper.cpp Helpers\VertexHelper.cpp Base\MaterialManager.cpp Helpers\MathHelper.cpp Physx\PhysxProxy.cpp Physx\PhysxErrorCallback.cpp Physx\PhysxManager.cpp Prefabs\CubePrefab.cpp Diagnostics\Logger.cpp Base\GameTime.cpp Diagnostics\GameSpecs.cpp Prefabs\FixedCamera.cpp Prefabs\FreeCamera.cpp Prefabs\SkyBoxPrefab.cpp Prefabs\SpherePrefab.cpp Prefabs\TorusPrefab.cpp Scenegraph\GameScene.cpp Scenegraph\GameObject.cpp Graphics\RenderTarget.cpp Scenegraph\SceneManager.cpp Components\TransformComponent.cpp Graphics\TextureData.cpp Graphics\SpriteRenderer.cpp Components\SpriteComponent.cpp
+         SpriteComponent.cpp
+         SpriteRenderer.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordengine\graphics\spriterenderer.cpp(283): warning C4244: 'argument' : conversion from 'UINT' to 'float', possible loss of data
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordengine\graphics\spriterenderer.cpp(283): warning C4238: nonstandard extension used : class rvalue used as lvalue
+         TextureData.cpp
+         TransformComponent.cpp
+         SceneManager.cpp
+         RenderTarget.cpp
+         GameObject.cpp
+         GameScene.cpp
+         TorusPrefab.cpp
+         SpherePrefab.cpp
+         SkyBoxPrefab.cpp
+         FreeCamera.cpp
+         FixedCamera.cpp
+         GameSpecs.cpp
+         GameTime.cpp
+         Logger.cpp
+         CubePrefab.cpp
+         PhysxManager.cpp
+         PhysxErrorCallback.cpp
+         PhysxProxy.cpp
+         Generating Code...
+         Compiling...
+         MathHelper.cpp
+         MaterialManager.cpp
+         VertexHelper.cpp
+         PhysxHelper.cpp
+         Material.cpp
+         ModelComponent.cpp
+         BinaryReader.cpp
+         MeshFilter.cpp
+         EffectHelper.cpp
+         TextRenderer.cpp
+         SpriteFont.cpp
+         PostProcessingMaterial.cpp
+         Particle.cpp
+         ModelAnimator.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordengine\graphics\modelanimator.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+         DebugRenderer.cpp
+         PxTriangleMeshLoader.cpp
+         PxConvexMeshLoader.cpp
+         ControllerComponent.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordengine\components\controllercomponent.cpp(141): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordengine\components\controllercomponent.cpp(159): warning C4018: '<' : signed/unsigned mismatch
+         MeshFilterLoader.cpp
+         EffectLoader.cpp
+         Generating Code...
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordengine\helpers\effecthelper.cpp(185): warning C4701: potentially uninitialized local variable 'format' used
+         Compiling...
+         TextureDataLoader.cpp
+         SpriteFontLoader.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordengine\content\spritefontloader.cpp(133): warning C4244: 'argument' : conversion from 'UINT' to 'const wchar_t', possible loss of data
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordengine\content\spritefontloader.cpp(136): warning C4244: 'argument' : conversion from 'UINT' to 'const wchar_t', possible loss of data
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordengine\content\spritefontloader.cpp(140): warning C4244: '=' : conversion from 'UINT' to 'wchar_t', possible loss of data
+         ContentManager.cpp
+         MeshIndexedDrawComponent.cpp
+         MeshDrawComponent.cpp
+         OverlordGame.cpp
+         BaseComponent.cpp
+         CameraComponent.cpp
+         ColliderComponent.cpp
+         InputManager.cpp
+         RigidBodyComponent.cpp
+         ParticleEmitterComponent.cpp
+         Generating Code...
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordengine\components\cameracomponent.cpp(122): warning C4701: potentially uninitialized local variable 'gameScene' used
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordengine\components\cameracomponent.cpp(122): warning C4703: potentially uninitialized local pointer variable 'gameScene' used
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordengine\components\cameracomponent.cpp(163): warning C4701: potentially uninitialized local variable 'physxProxy' used
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordengine\components\cameracomponent.cpp(163): warning C4703: potentially uninitialized local pointer variable 'physxProxy' used
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"Debug\OverlordEngine.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO /ignore:4099 Debug\stdafx.obj
+         Debug\ParticleEmitterComponent.obj
+         Debug\RigidBodyComponent.obj
+         Debug\InputManager.obj
+         Debug\ColliderComponent.obj
+         Debug\CameraComponent.obj
+         Debug\BaseComponent.obj
+         Debug\OverlordGame.obj
+         Debug\MeshDrawComponent.obj
+         Debug\MeshIndexedDrawComponent.obj
+         Debug\ContentManager.obj
+         Debug\SpriteFontLoader.obj
+         Debug\TextureDataLoader.obj
+         Debug\EffectLoader.obj
+         Debug\MeshFilterLoader.obj
+         Debug\ControllerComponent.obj
+         Debug\PxConvexMeshLoader.obj
+         Debug\PxTriangleMeshLoader.obj
+         Debug\DebugRenderer.obj
+         Debug\ModelAnimator.obj
+         Debug\Particle.obj
+         Debug\PostProcessingMaterial.obj
+         Debug\SpriteFont.obj
+         Debug\TextRenderer.obj
+         Debug\EffectHelper.obj
+         Debug\MeshFilter.obj
+         Debug\BinaryReader.obj
+         Debug\ModelComponent.obj
+         Debug\Material.obj
+         Debug\PhysxHelper.obj
+         Debug\VertexHelper.obj
+         Debug\MaterialManager.obj
+         Debug\MathHelper.obj
+         Debug\PhysxProxy.obj
+         Debug\PhysxErrorCallback.obj
+         Debug\PhysxManager.obj
+         Debug\CubePrefab.obj
+         Debug\Logger.obj
+         Debug\GameTime.obj
+         Debug\GameSpecs.obj
+         Debug\FixedCamera.obj
+         Debug\FreeCamera.obj
+         Debug\SkyBoxPrefab.obj
+         Debug\SpherePrefab.obj
+         Debug\TorusPrefab.obj
+         Debug\GameScene.obj
+         Debug\GameObject.obj
+         Debug\RenderTarget.obj
+         Debug\SceneManager.obj
+         Debug\TransformComponent.obj
+         Debug\TextureData.obj
+         Debug\SpriteRenderer.obj
+         Debug\SpriteComponent.obj
+         OverlordEngine.vcxproj -> C:\Users\Rémy\DAE\Graphics Programming 2\old\Source\OverlordEngine\Debug\OverlordEngine.lib
+     1>Done Building Project "C:\Users\Rémy\DAE\Graphics Programming 2\old\Source\OverlordEngine\OverlordEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.77

@@ -1,0 +1,113 @@
+﻿Build started 1/05/2015 22:34:53.
+     1>Project "C:\Users\Rémy\DAE\Graphics Programming 2\old\Source\OverlordProject\OverlordProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../OverlordEngine/ /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "CourseObjects\Week 10\ParticleScene.cpp" "CourseObjects\Week 11\SkyboxScene.cpp" "CourseObjects\Week 11\SkyBoxTestScene.cpp" "CourseObjects\Week 4\Character.cpp" "CourseObjects\Week 4\CharacterTest.cpp" "CourseObjects\Week 6\PickScene.cpp" "CourseObjects\Week 6\SpriteFontTestScene.cpp" "CourseObjects\Week 7\BoneObject.cpp" "CourseObjects\Week 7\SkinnedVertex.cpp" "CourseObjects\Week 7\SoftwareSkinningScene_1.cpp" "CourseObjects\Week 7\SoftwareSkinningScene_2.cpp" "CourseObjects\Week 7\SoftwareSkinningScene_3.cpp" "CourseObjects\Week 8\HardwareSkinningScene.cpp" "CourseObjects\Week 9\PostProcessingScene.cpp" "CourseObjects\Week 3\Pong\Ball.cpp" "CourseObjects\Week 3\Pong\Peddle.cpp" "CourseObjects\Week 3\Pong\PongScene.cpp" "CourseObjects\Week 5\SpikeyScene.cpp" "Exam\Level 1\Environment.cpp" "Exam\Level 1\FirstLevelScene.cpp" "Exam\Level 1\Key.cpp" "Exam\Level 2\Coin.cpp" "Exam\Level 2\Maze.cpp" "Exam\Level 2\SecondLevelScene.cpp" Exam\StartScreen.cpp Main.cpp MainGame.cpp Materials\DiffuseMaterial.cpp Materials\PointLightMaterial.cpp Materials\PostBlur.cpp Materials\PostGrayScale.cpp Materials\SkinnedDiffuseMaterial.cpp Materials\SkyBoxMaterial.cpp Materials\SpikeyMaterial.cpp Materials\ColorMaterial.cpp "CourseObjects\Week 4\ModelTestScene.cpp" "CourseObjects\Week 5\SpriteTestScene.cpp" "CourseObjects\Week 3\Pong\Wall.cpp" "CourseObjects\Week 3\Pong\TutorialScene.cpp"
+         TutorialScene.cpp
+         Wall.cpp
+         SpriteTestScene.cpp
+         ModelTestScene.cpp
+         ColorMaterial.cpp
+         SpikeyMaterial.cpp
+         SkyBoxMaterial.cpp
+         SkinnedDiffuseMaterial.cpp
+         PostGrayScale.cpp
+         PostBlur.cpp
+         PointLightMaterial.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\materials\pointlightmaterial.cpp(49): warning C4100: 'pointLight' : unreferenced formal parameter
+         DiffuseMaterial.cpp
+         MainGame.cpp
+         Main.cpp
+         StartScreen.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\exam\startscreen.cpp(49): warning C4305: 'argument' : truncation from 'double' to 'float'
+         SecondLevelScene.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\exam\level 2\secondlevelscene.cpp(110): warning C4305: 'argument' : truncation from 'double' to 'float'
+         Maze.cpp
+         Coin.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\exam\level 2\coin.cpp(54): warning C4100: 'gameContext' : unreferenced formal parameter
+         Key.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\exam\level 1\key.cpp(57): warning C4100: 'gameContext' : unreferenced formal parameter
+         FirstLevelScene.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\exam\level 1\firstlevelscene.cpp(84): warning C4305: 'argument' : truncation from 'double' to 'float'
+         Generating Code...
+         Compiling...
+         Environment.cpp
+         SpikeyScene.cpp
+         PongScene.cpp
+         Peddle.cpp
+         Ball.cpp
+         PostProcessingScene.cpp
+         HardwareSkinningScene.cpp
+         SoftwareSkinningScene_3.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\courseobjects\week 7\softwareskinningscene_3.cpp(82): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\courseobjects\week 7\softwareskinningscene_3.cpp(86): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\courseobjects\week 7\softwareskinningscene_3.cpp(89): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\courseobjects\week 7\softwareskinningscene_3.cpp(104): warning C4018: '<' : signed/unsigned mismatch
+         SoftwareSkinningScene_2.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\courseobjects\week 7\softwareskinningscene_2.cpp(82): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\courseobjects\week 7\softwareskinningscene_2.cpp(86): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\courseobjects\week 7\softwareskinningscene_2.cpp(89): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\courseobjects\week 7\softwareskinningscene_2.cpp(111): warning C4018: '<' : signed/unsigned mismatch
+         SoftwareSkinningScene_1.cpp
+         SkinnedVertex.cpp
+         BoneObject.cpp
+         SpriteFontTestScene.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\courseobjects\week 6\spritefonttestscene.cpp(23): warning C4100: 'gameContext' : unreferenced formal parameter
+         PickScene.cpp
+         CharacterTest.cpp
+         Character.cpp
+     1>c:\users\rémy\dae\graphics programming 2\old\source\overlordproject\courseobjects\week 4\character.cpp(120): warning C4189: 'transform' : local variable is initialized but not referenced
+         SkyBoxTestScene.cpp
+         SkyboxScene.cpp
+         ParticleScene.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Build\Debug\OverlordProject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmtd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\Build\Debug\OverlordProject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Build\Debug\OverlordProject.lib" /MACHINE:X86 /ignore:4099 Debug\ParticleScene.obj
+         Debug\SkyboxScene.obj
+         Debug\SkyBoxTestScene.obj
+         Debug\Character.obj
+         Debug\CharacterTest.obj
+         Debug\PickScene.obj
+         Debug\SpriteFontTestScene.obj
+         Debug\BoneObject.obj
+         Debug\SkinnedVertex.obj
+         Debug\SoftwareSkinningScene_1.obj
+         Debug\SoftwareSkinningScene_2.obj
+         Debug\SoftwareSkinningScene_3.obj
+         Debug\HardwareSkinningScene.obj
+         Debug\PostProcessingScene.obj
+         Debug\Ball.obj
+         Debug\Peddle.obj
+         Debug\PongScene.obj
+         Debug\SpikeyScene.obj
+         Debug\Environment.obj
+         Debug\FirstLevelScene.obj
+         Debug\Key.obj
+         Debug\Coin.obj
+         Debug\Maze.obj
+         Debug\SecondLevelScene.obj
+         Debug\StartScreen.obj
+         Debug\Main.obj
+         Debug\MainGame.obj
+         Debug\DiffuseMaterial.obj
+         Debug\PointLightMaterial.obj
+         Debug\PostBlur.obj
+         Debug\PostGrayScale.obj
+         Debug\SkinnedDiffuseMaterial.obj
+         Debug\SkyBoxMaterial.obj
+         Debug\SpikeyMaterial.obj
+         Debug\ColorMaterial.obj
+         Debug\ModelTestScene.obj
+         Debug\SpriteTestScene.obj
+         Debug\Wall.obj
+         Debug\TutorialScene.obj
+         "C:\Users\Rémy\DAE\Graphics Programming 2\old\Source\OverlordEngine\Debug\OverlordEngine.lib"
+         OverlordProject.vcxproj -> C:\Users\Rémy\DAE\Graphics Programming 2\old\Source\OverlordProject\..\Build\Debug\OverlordProject.exe
+       PostBuildEvent:
+         xcopy "C:\Users\Rémy\DAE\Graphics Programming 2\old\Source\OverlordProject\..\AdditionalLibraries\PhysX\Binaries_3.3.0\Bin_Checked\*" "..\Build\Debug\" /y /D
+         :VCEnd
+         0 bestand(en) gekopieerd
+     1>Done Building Project "C:\Users\Rémy\DAE\Graphics Programming 2\old\Source\OverlordProject\OverlordProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:48.95

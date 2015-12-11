@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4BB7590D-3CD1-4AAC-AC8F-DB0534E11B4F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OverlordProject</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Build\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>C:\PhysX-3.3.0_PC_SDK_Core\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\PhysX-3.3.0_PC_SDK_Core\Lib\win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Build\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>C:\PhysX-3.3.0_PC_SDK_Core\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\PhysX-3.3.0_PC_SDK_Core\Lib\win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../OverlordEngine/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <Profile>
+      </Profile>
+      <IgnoreSpecificDefaultLibraries>libcmtd.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)..\AdditionalLibraries\PhysX\Binaries_3.3.0\Bin_Checked\*" "$(OutDir)" /y /D</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../OverlordEngine/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)..\AdditionalLibraries\PhysX\Binaries_3.3.0\Bin_Release\*" "$(OutDir)" /y /D</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CourseObjects\Week 10\ParticleScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 11\SkyboxScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 11\SkyBoxTestScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 4\Character.cpp" />
+    <ClCompile Include="CourseObjects\Week 4\CharacterTest.cpp" />
+    <ClCompile Include="CourseObjects\Week 6\PickScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 6\SpriteFontTestScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 7\BoneObject.cpp" />
+    <ClCompile Include="CourseObjects\Week 7\SkinnedVertex.cpp" />
+    <ClCompile Include="CourseObjects\Week 7\SoftwareSkinningScene_1.cpp" />
+    <ClCompile Include="CourseObjects\Week 7\SoftwareSkinningScene_2.cpp" />
+    <ClCompile Include="CourseObjects\Week 7\SoftwareSkinningScene_3.cpp" />
+    <ClCompile Include="CourseObjects\Week 8\HardwareSkinningScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 9\PostProcessingScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 3\Pong\Ball.cpp" />
+    <ClCompile Include="CourseObjects\Week 3\Pong\Peddle.cpp" />
+    <ClCompile Include="CourseObjects\Week 3\Pong\PongScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 5\SpikeyScene.cpp" />
+    <ClCompile Include="Exam\Level 1\Environment.cpp" />
+    <ClCompile Include="Exam\Level 1\FirstLevelScene.cpp" />
+    <ClCompile Include="Exam\Level 1\Key.cpp" />
+    <ClCompile Include="Exam\Level 2\Coin.cpp" />
+    <ClCompile Include="Exam\Level 2\Maze.cpp" />
+    <ClCompile Include="Exam\Level 2\SecondLevelScene.cpp" />
+    <ClCompile Include="Exam\StartScreen.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Materials\DiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\PointLightMaterial.cpp" />
+    <ClCompile Include="Materials\PostBlur.cpp" />
+    <ClCompile Include="Materials\PostGrayScale.cpp" />
+    <ClCompile Include="Materials\SkinnedDiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\SkyBoxMaterial.cpp" />
+    <ClCompile Include="Materials\SpikeyMaterial.cpp" />
+    <ClCompile Include="Materials\ColorMaterial.cpp" />
+    <ClCompile Include="CourseObjects\Week 4\ModelTestScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 5\SpriteTestScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 3\Pong\Wall.cpp" />
+    <ClCompile Include="CourseObjects\Week 3\Pong\TutorialScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OverlordEngine\OverlordEngine.vcxproj">
+      <Project>{634cfe8d-455c-45bf-94f0-bd0aab13e0e6}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CourseObjects\Week 10\ParticleScene.h" />
+    <ClInclude Include="CourseObjects\Week 11\SkyboxScene.h" />
+    <ClInclude Include="CourseObjects\Week 11\SkyBoxTestScene.h" />
+    <ClInclude Include="CourseObjects\Week 3\Pong\Ball.h" />
+    <ClInclude Include="CourseObjects\Week 3\Pong\Peddle.h" />
+    <ClInclude Include="CourseObjects\Week 3\Pong\PongScene.h" />
+    <ClInclude Include="CourseObjects\Week 4\Character.h" />
+    <ClInclude Include="CourseObjects\Week 4\CharacterTest.h" />
+    <ClInclude Include="CourseObjects\Week 5\SpikeyScene.h" />
+    <ClInclude Include="CourseObjects\Week 6\PickScene.h" />
+    <ClInclude Include="CourseObjects\Week 6\SpriteFontTestScene.h" />
+    <ClInclude Include="CourseObjects\Week 7\BoneObject.h" />
+    <ClInclude Include="CourseObjects\Week 7\SkinnedVertex.h" />
+    <ClInclude Include="CourseObjects\Week 7\SoftwareSkinningScene_1.h" />
+    <ClInclude Include="CourseObjects\Week 7\SoftwareSkinningScene_2.h" />
+    <ClInclude Include="CourseObjects\Week 7\SoftwareSkinningScene_3.h" />
+    <ClInclude Include="CourseObjects\Week 8\HardwareSkinningScene.h" />
+    <ClInclude Include="CourseObjects\Week 9\PostProcessingScene.h" />
+    <ClInclude Include="Exam\Level 1\Environment.h" />
+    <ClInclude Include="Exam\Level 1\FirstLevelScene.h" />
+    <ClInclude Include="Exam\Level 1\Key.h" />
+    <ClInclude Include="Exam\Level 2\Coin.h" />
+    <ClInclude Include="Exam\Level 2\Maze.h" />
+    <ClInclude Include="Exam\Level 2\SecondLevelScene.h" />
+    <ClInclude Include="Exam\StartScreen.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="Materials\DiffuseMaterial.h" />
+    <ClInclude Include="Materials\PointLightMaterial.h" />
+    <ClInclude Include="Materials\PostBlur.h" />
+    <ClInclude Include="Materials\PostGrayScale.h" />
+    <ClInclude Include="Materials\SkinnedDiffuseMaterial.h" />
+    <ClInclude Include="Materials\SkyBoxMaterial.h" />
+    <ClInclude Include="Materials\SpikeyMaterial.h" />
+    <ClInclude Include="Materials\ColorMaterial.h" />
+    <ClInclude Include="CourseObjects\Week 4\ModelTestScene.h" />
+    <ClInclude Include="CourseObjects\Week 5\SpriteTestScene.h" />
+    <ClInclude Include="CourseObjects\Week 3\Pong\Wall.h" />
+    <ClInclude Include="CourseObjects\Week 3\Pong\TutorialScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Meshes\Bone.ovm" />
+    <None Include="Resources\Meshes\Box.ovm" />
+    <None Include="Resources\Meshes\Chair.ovm" />
+    <None Include="Resources\Meshes\Chair.ovpc" />
+    <None Include="Resources\Meshes\Chair.ovpt" />
+    <None Include="Resources\Meshes\DragonEgg.ovm" />
+    <None Include="Resources\Meshes\DragonEgg.ovpt" />
+    <None Include="Resources\Meshes\Knight.ovm" />
+    <None Include="Resources\Meshes\Knight.X" />
+    <None Include="Resources\Meshes\Nest.ovm" />
+    <None Include="Resources\Meshes\Nest.ovpt" />
+    <None Include="Resources\Meshes\Racetrack.ovm" />
+    <None Include="Resources\Meshes\Racetrack.ovpt" />
+    <None Include="Resources\Meshes\Stones.ovm" />
+    <None Include="Resources\Meshes\Stones.ovpt" />
+    <None Include="Resources\Meshes\Teapot.ovm" />
+    <None Include="Resources\Meshes\Terrain.ovm" />
+    <None Include="Resources\Meshes\Terrain.ovpt" />
+    <None Include="Resources\Meshes\Test.ovm" />
+    <None Include="Resources\SpriteFonts\Consolas_32.fnt" />
+    <None Include="Resources\Textures\BuildingTexture.tga" />
+    <None Include="Resources\Textures\Chair_Dark.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\SpriteFonts\Consolas_32_0.png" />
+    <Image Include="Resources\Textures\BackGroundCube.dds" />
+    <Image Include="Resources\Textures\Chair_Dark.bmp" />
+    <Image Include="Resources\Textures\Chair_Dark.dds" />
+    <Image Include="Resources\Textures\Chair_Dark.jpg" />
+    <Image Include="Resources\Textures\DeadScreen.jpg" />
+    <Image Include="Resources\Textures\DoorTexture.jpg" />
+    <Image Include="Resources\Textures\DragonEggTexture.jpg" />
+    <Image Include="Resources\Textures\Grass.jpg" />
+    <Image Include="Resources\Textures\GrassAlpha.jpg" />
+    <Image Include="Resources\Textures\GrassBladeDiffuse.jpg" />
+    <Image Include="Resources\Textures\GrassDiffuse.jpg" />
+    <Image Include="Resources\Textures\GrassNoiseMap.jpg" />
+    <Image Include="Resources\Textures\HUD.jpg" />
+    <Image Include="Resources\Textures\Knight.jpg" />
+    <Image Include="Resources\Textures\Nest.jpg" />
+    <Image Include="Resources\Textures\NightSky.dds" />
+    <Image Include="Resources\Textures\RaceStartScreen.jpg" />
+    <Image Include="Resources\Textures\RestartScreen.jpg" />
+    <Image Include="Resources\Textures\SkyBox.dds" />
+    <Image Include="Resources\Textures\Skytest.jpg" />
+    <Image Include="Resources\Textures\Smoke.png" />
+    <Image Include="Resources\Textures\StartMenu.jpg" />
+    <Image Include="Resources\Textures\Stones.jpg" />
+    <Image Include="Resources\Textures\Sunol_Cubemap.dds" />
+    <Image Include="Resources\Textures\testTex.jpg" />
+    <Image Include="Resources\Textures\tex.jpg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

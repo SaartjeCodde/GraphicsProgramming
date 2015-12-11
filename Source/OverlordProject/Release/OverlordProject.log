@@ -1,0 +1,108 @@
+﻿Build started 2/09/2014 15:42:29.
+     1>Project "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordProject\OverlordProject.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>Project "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordProject\OverlordProject.vcxproj" (1) is building "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordEngine\OverlordEngine.vcxproj" (2) on node 2 (GetTargetPath target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordEngine\OverlordEngine.vcxproj" (GetTargetPath target(s)).
+     1>Project "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordProject\OverlordProject.vcxproj" (1) is building "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordEngine\OverlordEngine.vcxproj" (2:2) on node 2 (GetNativeManifest target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordEngine\OverlordEngine.vcxproj" (GetNativeManifest target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\OverlordProject.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+     1>Project "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordProject\OverlordProject.vcxproj" (1) is building "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordEngine\OverlordEngine.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordEngine\OverlordEngine.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Build\Release\OverlordProject.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\Build\Release\OverlordProject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Build\Release\OverlordProject.lib" /MACHINE:X86 /SAFESEH Release\ParticleScene.obj
+         Release\SkyboxScene.obj
+         Release\SkyBoxTestScene.obj
+         Release\Character.obj
+         Release\CharacterTest.obj
+         Release\PickScene.obj
+         Release\SpriteFontTestScene.obj
+         Release\BoneObject.obj
+         Release\SkinnedVertex.obj
+         Release\SoftwareSkinningScene_1.obj
+         Release\SoftwareSkinningScene_2.obj
+         Release\SoftwareSkinningScene_3.obj
+         Release\HardwareSkinningScene.obj
+         Release\PostProcessingScene.obj
+         Release\Ball.obj
+         Release\Peddle.obj
+         Release\PongScene.obj
+         Release\SpikeyScene.obj
+         Release\Environment.obj
+         Release\FirstLevelScene.obj
+         Release\Key.obj
+         Release\Coin.obj
+         Release\Maze.obj
+         Release\SecondLevelScene.obj
+         Release\StartScreen.obj
+         Release\Main.obj
+         Release\MainGame.obj
+         Release\DiffuseMaterial.obj
+         Release\PointLightMaterial.obj
+         Release\PostBlur.obj
+         Release\PostGrayScale.obj
+         Release\SkinnedDiffuseMaterial.obj
+         Release\SkyBoxMaterial.obj
+         Release\SpikeyMaterial.obj
+         Release\ColorMaterial.obj
+         Release\ModelTestScene.obj
+         Release\SpriteTestScene.obj
+         Release\Wall.obj
+         Release\TutorialScene.obj
+         "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordEngine\Release\OverlordEngine.lib"
+         Generating code
+     1>c:\users\saartje\desktop\retake gp2\codde_saartje_2dae_gd2_opdracht1\source\overlordengine\physx\physxproxy.cpp(176): warning C4702: unreachable code
+     1>c:\users\saartje\desktop\retake gp2\codde_saartje_2dae_gd2_opdracht1\source\overlordengine\helpers\binaryreader.h(28): warning C4702: unreachable code
+     1>c:\users\saartje\desktop\retake gp2\codde_saartje_2dae_gd2_opdracht1\source\overlordengine\components\controllercomponent.cpp(115): warning C4702: unreachable code
+     1>c:\users\saartje\desktop\retake gp2\codde_saartje_2dae_gd2_opdracht1\source\overlordengine\components\rigidbodycomponent.cpp(176): warning C4702: unreachable code
+     1>c:\users\saartje\desktop\retake gp2\codde_saartje_2dae_gd2_opdracht1\source\overlordengine\components\rigidbodycomponent.cpp(190): warning C4702: unreachable code
+     1>c:\users\saartje\desktop\retake gp2\codde_saartje_2dae_gd2_opdracht1\source\overlordengine\components\cameracomponent.cpp(122): warning C4701: potentially uninitialized local variable 'gameScene' used
+     1>c:\users\saartje\desktop\retake gp2\codde_saartje_2dae_gd2_opdracht1\source\overlordengine\components\cameracomponent.cpp(122): warning C4703: potentially uninitialized local pointer variable 'gameScene' used
+     1>c:\users\saartje\desktop\retake gp2\codde_saartje_2dae_gd2_opdracht1\source\overlordengine\components\cameracomponent.cpp(163): warning C4701: potentially uninitialized local variable 'physxProxy' used
+     1>c:\users\saartje\desktop\retake gp2\codde_saartje_2dae_gd2_opdracht1\source\overlordengine\components\cameracomponent.cpp(163): warning C4703: potentially uninitialized local pointer variable 'physxProxy' used
+         Finished generating code
+     1>DxEffects11_VS12.lib(EffectAPI.obj) : warning LNK4099: PDB 'effects11.pdb' was not found with 'DxEffects11_VS12.lib(EffectAPI.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\effects11.pdb'; linking object as if no debug info
+     1>DxEffects11_VS12.lib(d3dxGlobal.obj) : warning LNK4099: PDB 'effects11.pdb' was not found with 'DxEffects11_VS12.lib(d3dxGlobal.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\effects11.pdb'; linking object as if no debug info
+     1>DxEffects11_VS12.lib(EffectNonRuntime.obj) : warning LNK4099: PDB 'effects11.pdb' was not found with 'DxEffects11_VS12.lib(EffectNonRuntime.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\effects11.pdb'; linking object as if no debug info
+     1>DxEffects11_VS12.lib(EffectLoad.obj) : warning LNK4099: PDB 'effects11.pdb' was not found with 'DxEffects11_VS12.lib(EffectLoad.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\effects11.pdb'; linking object as if no debug info
+     1>DxEffects11_VS12.lib(EffectReflection.obj) : warning LNK4099: PDB 'effects11.pdb' was not found with 'DxEffects11_VS12.lib(EffectReflection.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\effects11.pdb'; linking object as if no debug info
+     1>DxEffects11_VS12.lib(EffectRuntime.obj) : warning LNK4099: PDB 'effects11.pdb' was not found with 'DxEffects11_VS12.lib(EffectRuntime.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\effects11.pdb'; linking object as if no debug info
+     1>DirectXTex.lib(DirectXTexDDS.obj) : warning LNK4099: PDB 'directxtex.pdb' was not found with 'DirectXTex.lib(DirectXTexDDS.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\directxtex.pdb'; linking object as if no debug info
+     1>DirectXTex.lib(DirectXTexTGA.obj) : warning LNK4099: PDB 'directxtex.pdb' was not found with 'DirectXTex.lib(DirectXTexTGA.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\directxtex.pdb'; linking object as if no debug info
+     1>DirectXTex.lib(DirectXTexWIC.obj) : warning LNK4099: PDB 'directxtex.pdb' was not found with 'DirectXTex.lib(DirectXTexWIC.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\directxtex.pdb'; linking object as if no debug info
+     1>DirectXTex.lib(DirectXTexD3D11.obj) : warning LNK4099: PDB 'directxtex.pdb' was not found with 'DirectXTex.lib(DirectXTexD3D11.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\directxtex.pdb'; linking object as if no debug info
+     1>DirectXTex.lib(DirectXTexImage.obj) : warning LNK4099: PDB 'directxtex.pdb' was not found with 'DirectXTex.lib(DirectXTexImage.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\directxtex.pdb'; linking object as if no debug info
+     1>DirectXTex.lib(DirectXTexUtil.obj) : warning LNK4099: PDB 'directxtex.pdb' was not found with 'DirectXTex.lib(DirectXTexUtil.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\directxtex.pdb'; linking object as if no debug info
+     1>DirectXTex.lib(DirectXTexConvert.obj) : warning LNK4099: PDB 'directxtex.pdb' was not found with 'DirectXTex.lib(DirectXTexConvert.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\directxtex.pdb'; linking object as if no debug info
+     1>DirectXTex.lib(DirectXTexMipMaps.obj) : warning LNK4099: PDB 'directxtex.pdb' was not found with 'DirectXTex.lib(DirectXTexMipMaps.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\directxtex.pdb'; linking object as if no debug info
+     1>DirectXTex.lib(DirectXTexCompress.obj) : warning LNK4099: PDB 'directxtex.pdb' was not found with 'DirectXTex.lib(DirectXTexCompress.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\directxtex.pdb'; linking object as if no debug info
+     1>DirectXTex.lib(BC.obj) : warning LNK4099: PDB 'directxtex.pdb' was not found with 'DirectXTex.lib(BC.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\directxtex.pdb'; linking object as if no debug info
+     1>DirectXTex.lib(BC4BC5.obj) : warning LNK4099: PDB 'directxtex.pdb' was not found with 'DirectXTex.lib(BC4BC5.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\directxtex.pdb'; linking object as if no debug info
+     1>DirectXTex.lib(BC6HBC7.obj) : warning LNK4099: PDB 'directxtex.pdb' was not found with 'DirectXTex.lib(BC6HBC7.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\directxtex.pdb'; linking object as if no debug info
+     1>PxTask.lib(CudaWrapper.obj) : warning LNK4099: PDB 'pxtask.pdb' was not found with 'PxTask.lib(CudaWrapper.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\pxtask.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtCpuWorkerThread.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtCpuWorkerThread.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\physx3extensions.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtD6Joint.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtD6Joint.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\physx3extensions.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtD6JointSolverPrep.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtD6JointSolverPrep.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\physx3extensions.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtDefaultCpuDispatcher.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtDefaultCpuDispatcher.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\physx3extensions.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtDefaultStreams.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtDefaultStreams.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\physx3extensions.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtJoint.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtJoint.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\physx3extensions.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtPvdClientImpl.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtPvdClientImpl.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\physx3extensions.pdb'; linking object as if no debug info
+     1>PhysXProfileSDK.lib(PxProfileEventImpl.obj) : warning LNK4099: PDB 'physxprofilesdk.pdb' was not found with 'PhysXProfileSDK.lib(PxProfileEventImpl.obj)' or at 'C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\Build\Release\physxprofilesdk.pdb'; linking object as if no debug info
+         OverlordProject.vcxproj -> C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordProject\..\Build\Release\OverlordProject.exe
+       PostBuildEvent:
+         xcopy "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordProject\..\AdditionalLibraries\PhysX\Binaries_3.3.0\Bin_Release\*" "..\Build\Release\" /y /D
+         :VCEnd
+         0 File(s) copied
+       FinalizeBuildStatus:
+         Deleting file "Release\OverlordProject.unsuccessfulbuild".
+         Touching "Release\OverlordProject.lastbuildstate".
+     1>Done Building Project "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordProject\OverlordProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.18

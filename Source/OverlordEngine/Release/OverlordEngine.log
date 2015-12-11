@@ -1,0 +1,72 @@
+﻿Build started 2/09/2014 15:42:13.
+     1>Project "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordEngine\OverlordEngine.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Creating "Release\OverlordEngine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordEngine\/Base" /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D OVERLORDENGINE_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\OverlordEngine.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Graphics\Particle.cpp
+         Particle.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"Release\OverlordEngine.lib" /NOLOGO /LTCG Release\stdafx.obj
+         Release\ParticleEmitterComponent.obj
+         Release\RigidBodyComponent.obj
+         Release\InputManager.obj
+         Release\ColliderComponent.obj
+         Release\CameraComponent.obj
+         Release\BaseComponent.obj
+         Release\OverlordGame.obj
+         Release\MeshDrawComponent.obj
+         Release\MeshIndexedDrawComponent.obj
+         Release\ContentManager.obj
+         Release\SpriteFontLoader.obj
+         Release\TextureDataLoader.obj
+         Release\EffectLoader.obj
+         Release\MeshFilterLoader.obj
+         Release\ControllerComponent.obj
+         Release\PxConvexMeshLoader.obj
+         Release\PxTriangleMeshLoader.obj
+         Release\DebugRenderer.obj
+         Release\ModelAnimator.obj
+         Release\Particle.obj
+         Release\PostProcessingMaterial.obj
+         Release\SpriteFont.obj
+         Release\TextRenderer.obj
+         Release\EffectHelper.obj
+         Release\MeshFilter.obj
+         Release\BinaryReader.obj
+         Release\ModelComponent.obj
+         Release\Material.obj
+         Release\PhysxHelper.obj
+         Release\VertexHelper.obj
+         Release\MaterialManager.obj
+         Release\MathHelper.obj
+         Release\PhysxProxy.obj
+         Release\PhysxErrorCallback.obj
+         Release\PhysxManager.obj
+         Release\CubePrefab.obj
+         Release\Logger.obj
+         Release\GameTime.obj
+         Release\GameSpecs.obj
+         Release\FixedCamera.obj
+         Release\FreeCamera.obj
+         Release\SkyBoxPrefab.obj
+         Release\SpherePrefab.obj
+         Release\TorusPrefab.obj
+         Release\GameScene.obj
+         Release\GameObject.obj
+         Release\RenderTarget.obj
+         Release\SceneManager.obj
+         Release\TransformComponent.obj
+         Release\TextureData.obj
+         Release\SpriteRenderer.obj
+         Release\SpriteComponent.obj
+         OverlordEngine.vcxproj -> C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordEngine\Release\OverlordEngine.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\OverlordEngine.unsuccessfulbuild".
+         Touching "Release\OverlordEngine.lastbuildstate".
+     1>Done Building Project "C:\Users\saartje\Desktop\Retake GP2\Codde_Saartje_2DAE_GD2_Opdracht1\Source\OverlordEngine\OverlordEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.98
